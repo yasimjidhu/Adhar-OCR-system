@@ -30,7 +30,7 @@ export default function OCRReaderPage() {
     formData.append('aadhaarImages', backImage);
 
     setSubmitData({
-      url: 'http://localhost:3000/upload',
+      url: 'https://adhar-ocr-system-2.onrender.com/upload',
       options: {
         method: 'post',
         data: formData,
